@@ -1,0 +1,12 @@
+.Deal{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.sale{
+  color: red;
+  margin-top: 5px;
+  font-style: italic;
+}

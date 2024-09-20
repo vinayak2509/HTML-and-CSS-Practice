@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex{
+        display: flex;
+      }
+      .one{
+        background-color: lightpink;
+        width: 100px;
+      }
+      .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        height: 50px;
+        background-color: lightblue;
+      }
+      .three{
+        display: flex;
+        justify-content: space-between;
+      }
+      .own{
+        background-color: lightblue;
+        color: black;
+        width:max-content ;
+      }
+      p{
+        margin: 0;
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+
+      <div class="one"></div>
+      <div class="two">
+        <p class="own">row 1</p>
+        <div class="three">
+          <p>row 2</p>
+          <p>row 2</p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

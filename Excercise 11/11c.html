@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      
+      .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        
+        
+      }
+
+      .outer-grid{
+        display: grid;
+        row-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-grid">
+      <div class="grid">
+        <div style="background-color: lightblue;">col1</div>
+        <div style="background-color: lightpink;">col2</div>
+        <div style="background-color: lightblue;"> col3</div>
+        <div style="background-color: lightpink;">col4</div>
+      </div>
+
+      <div class="grid">
+        <div style="background-color: lightblue;">col1</div>
+        <div style="background-color: lightpink;">col2</div>
+        <div style="background-color: lightblue;"> col3</div>
+        <div style="background-color: lightpink;">col4</div>
+      </div>
+    </div>
+  </body>
+</html>

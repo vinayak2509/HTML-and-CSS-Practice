@@ -1,0 +1,22 @@
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mail{
+  font-weight: bold;
+}
+.fcc{
+  color: grey;
+  font-weight: large;
+}
+.data{
+  width:500px;
+  margin-top: 10px;
+}
+.data2{
+  margin-top: 20px;
+}
+.chp{
+  color: rgba(0, 172, 252, 0.836);
+}
